@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script defer src="./assets/js/script.js"></script>
+  </head>
+
+  <body>
+    <header>
+        <div>
+            <button class="btnHeader" id="view-high-scores">View High Scores</button>
+        </div>
+        <div>
+            <p>Time: <span id="timeleft">xxxx</span></p>
+        <!-- </div>
+        <h2 class="title">Cool Joes Cool Quiz</h2>
+        <div class="timer">
+        <div class="time-text">Time Left </div>
+        <div class="timer-sec">80</div>
+        </div> -->
+    </header> 
+    <div class="container">
+      <div id="question-container" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+          <button class="btn">submitScore</button>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+      </div>  
